@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+
+# Test artifacts / reports
+artifacts/
+*.xml
+*.html
+
+# OS
+.DS_Store

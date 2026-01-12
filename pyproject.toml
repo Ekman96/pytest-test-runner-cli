@@ -1,0 +1,16 @@
+[project]
+name = "pytest-test-runner-cli"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+  "pytest",
+  "pytest-html"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+  "smoke: quick critical tests",
+  "regression: full suite tests"
+]
+addopts = "-q"
